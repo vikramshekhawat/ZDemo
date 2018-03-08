@@ -18,7 +18,7 @@ import in.zemy.com.model.CassandraCredentials;
 import in.zemy.com.model.OrdersInfomodel;
 
 public class CassandraCRUDImpl implements CassandraDao {
-
+//hello
 	private Cluster cluster;
 
 	private Session session;

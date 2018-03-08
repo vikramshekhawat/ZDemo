@@ -9,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
 //magento table
 @UserDefinedType(value = "magento_order_address")
 public class Address {
-
+//hello
 	@SerializedName("region")
 	@Expose
 	@Column(value = "region")
