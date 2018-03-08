@@ -6,7 +6,7 @@ import org.springframework.data.cassandra.mapping.UserDefinedType;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
+//magento table
 @UserDefinedType(value = "magento_order_address")
 public class Address {
 
