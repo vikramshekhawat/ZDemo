@@ -38,7 +38,7 @@ public class CassandraCRUDImpl implements CassandraDao {
 			address = new ArrayList<InetSocketAddress>();
 			address.add(new InetSocketAddress(cassandraCredentials.getContactpoint(),
 					Integer.parseInt(cassandraCredentials.getPort()))); // cluster
-																		// //
+				//hello														// //
 
 			try {
 				cluster = Cluster.builder().addContactPointsWithPorts(address).build();

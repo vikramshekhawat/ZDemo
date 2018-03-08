@@ -9,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
 
 @UserDefinedType(value = "magento_order_comments")
 public class OrderComment {
-
+//Hello 
 	@SerializedName("is_customer_notified")
 	@Expose
 	@Column(value = "is_customer_notified")
