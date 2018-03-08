@@ -6,7 +6,7 @@ import org.springframework.data.cassandra.mapping.UserDefinedType;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
+//table name Magento_order_comments
 @UserDefinedType(value = "magento_order_comments")
 public class OrderComment {
 

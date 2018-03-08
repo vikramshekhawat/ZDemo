@@ -34,7 +34,7 @@ public class CassandraCRUDImpl implements CassandraDao {
 		if (session != null) {
 
 		} else {
-//fetch address data
+
 			address = new ArrayList<InetSocketAddress>();
 			address.add(new InetSocketAddress(cassandraCredentials.getContactpoint(),
 					Integer.parseInt(cassandraCredentials.getPort()))); // cluster
